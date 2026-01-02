@@ -16,8 +16,8 @@
 ### 本地 Git（你现在有的）
 ```
 你的电脑
-├── llm_interview_prep/  (你的文件)
-└── .git/                (Git 历史记录，本地保存)
+├── llm_notes/  (你的文件)
+└── .git/       (Git 历史记录，本地保存)
 ```
 
 ### GitHub（云端仓库）
@@ -32,13 +32,13 @@ GitHub 服务器
 
 1. **在 GitHub 上创建新仓库**
    - 访问 https://github.com/new
-   - 仓库名：例如 `llm-interview-prep`
+   - 仓库名：例如 `llm-notes`
    - 不要初始化 README（因为本地已有文件）
 
 2. **连接本地仓库到 GitHub**
    ```bash
    cd /Users/mingyangxia/focus/llms
-   git remote add origin https://github.com/你的用户名/llm-interview-prep.git
+   git remote add origin https://github.com/你的用户名/llm-notes.git
    git branch -M main  # 可选：将分支名改为 main
    git push -u origin main
    ```

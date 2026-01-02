@@ -41,7 +41,7 @@ See `code/` folder for:
 - Architecture analysis
 - Performance benchmarks
 
-## 常见面试问题 (Common Interview Questions)
+## 问题与讨论 (Questions and Discussions)
 
 See `questions/` folder for:
 - Model architecture differences
